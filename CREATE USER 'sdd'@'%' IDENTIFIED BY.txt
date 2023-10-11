@@ -1,0 +1,8 @@
+CREATE USER 'sdd'@'%' IDENTIFIED BY 'India#123';
+
+
+GRANT ALL PRIVILEGES ON * . * TO 'sdd'@'%';
+
+FLUSH PRIVILEGES;
+
+GRANT CREATE, SELECT ON * . * TO 'sdd'@'%';
